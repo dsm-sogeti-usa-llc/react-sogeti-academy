@@ -1,15 +1,5 @@
 @if "%SCM_TRACE_LEVEL%" NEQ "4" @echo off
 
-
-
-:: ----------------------
-:: KUDU Deployment Script
-:: Version: 0.2.2
-:: ----------------------
-
-:: Prerequisites
-:: -------------
-
 :: Verify node.js installed
 where node 2>nul >nul
 IF %ERRORLEVEL% NEQ 0 (
